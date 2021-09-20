@@ -200,7 +200,7 @@ function todosIguales(arreglo) {
       return false;
   }
   return true;*/ 
-  for(var i=o; i< arreglo.length-1; i++)
+  for(var i=0; i< arreglo.length-1; i++)
   {
     if(arreglo[i] === arreglo[i+1])
       return true;
